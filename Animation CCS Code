@@ -45,3 +45,14 @@
      height: auto;
      max-height: 250px;
 }
+
+@media (max-width:767px){
+.container{
+    width: 100vh;
+    height:60vh;
+    transition: height 1.5s ease;
+}
+.container:hover{
+    width: 100vh;
+    height:100vh;
+}
